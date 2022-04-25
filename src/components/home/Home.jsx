@@ -1,4 +1,9 @@
+import ComoParticipar from "../como-participar/ComoParticipar"
+import Footer from "../footer/footer"
 import NavBar from "../header/NavBar"
+import Novedades from "../novedades/Novedades"
+import QueHacemos from "../que-hacemos/QueHacemos"
+import QuienesSomos from "../quienes-somos/QuienesSomos"
 const Home = () => {
   return <>
     <NavBar />
@@ -24,6 +29,20 @@ const Home = () => {
     <span className="visually-hidden">Next</span>
   </button>
     </div>
+    <div className="row">
+      <QuienesSomos />
+    </div>
+    <div className="row">
+      <QueHacemos />
+    </div>
+    <div className="row">
+      <ComoParticipar />
+    </div>
+    <div className="row">
+    <Novedades />
+    </div>
+    
+    <Footer />
   </>
 }
 

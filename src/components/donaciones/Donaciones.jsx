@@ -1,3 +1,4 @@
+import Footer from "../footer/footer"
 import NavBar from "../header/NavBar"
 const Donaciones = () => {
   return <>
@@ -44,6 +45,7 @@ const Donaciones = () => {
         </div>
       </form>
     </div>
+    <Footer />
   </>
 }
 

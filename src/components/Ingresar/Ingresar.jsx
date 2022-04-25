@@ -1,3 +1,4 @@
+import Footer from "../footer/footer"
 import NavBar from "../header/NavBar"
 const Ingresar = () => {
   return <>
@@ -24,6 +25,7 @@ const Ingresar = () => {
         <a href="/recuperarContraseña">Olvido su contraseña?</a>
       </div>
     </div>
+    <Footer />
   </>
 }
 

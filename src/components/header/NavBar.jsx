@@ -7,22 +7,22 @@ const NavBar = () => {
                 </a>
             </div>
             <div className="container">
-                <a href="/QuienesSomos">
+                <a href="#quienesSomos">
                     <h2>Quienes somos?</h2>
                 </a>
             </div>
             <div className="container">
-                <a href="/QueHacemos">
+                <a href="#queHacemos">
                     <h2>Que Hacemos?</h2>
                 </a>
             </div>
             <div className="container">
-                <a href="/ComoParticipar">
+                <a href="#comoParticipar">
                     <h2>Como Participar?</h2>
                 </a>
             </div>
             <div className="container">
-                <a href="/Novedades">
+                <a href="#novedades">
                     <h2>Novedades</h2>
                 </a>
             </div>

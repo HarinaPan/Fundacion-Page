@@ -1,7 +1,3 @@
-.Navbar {
-    display: flex;
-    justify-content: space-around;
-}
 .carouselContainer {
     position: absolute;
     width: 600px;
@@ -11,3 +7,27 @@
     width: 100%;
     height: 100%;
 }
+.cuadro{
+    border: 1px solid black;
+    background-color: black;
+    
+}
+.Navbar {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.cuadro{
+    display: flex;
+    justify-content: space-around;
+}
+.links{
+    display: flex;
+    gap: 3rem;
+}
+.googleMaps , .cuadroQr{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: white;
+} 
