@@ -1,10 +1,13 @@
 import Formulario from "../Formulario/Formulario"
+import FormularioDona from "../Formulario/FormularioDona"
 import NavBar from "../header/NavBar"
 
 const Home = () => {
   return <>
     <NavBar />
 <Formulario/>
+<h1>nacho </h1>
+<FormularioDona/>
     <h1>Este es el Home</h1>
     <div id="carouselExampleControls" className="carousel slide carouselContainer" data-bs-ride="carousel">
       <div className="carousel-inner">
