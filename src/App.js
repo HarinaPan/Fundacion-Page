@@ -10,6 +10,7 @@ import Donaciones from "./components/donaciones/Donaciones"
 import Ingresar from "./components/Ingresar/Ingresar"
 
 function App() {
+  console.log("hola")
   return <>
 
   <Router>
