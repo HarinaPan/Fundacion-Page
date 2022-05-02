@@ -1,8 +1,19 @@
+<<<<<<< HEAD
 import Footer from "../footer/footer"
+=======
+import { useState } from "react"
+>>>>>>> dev
 import NavBar from "../header/NavBar"
+import FormularioIngreso from "./FormularioIngreso.jsx"
+import AdminPage from "../adminview/AdminPage.jsx"
 const Ingresar = () => {
-  return <>
+  const [login,setLogin] = useState(false)
+  const [loginError, setLoginError] = useState(false)
+  if(login===false) {
+    if(loginError===false)
+    return <>
     <NavBar />
+<<<<<<< HEAD
     <div className="container col-md-6">
       <div className="container ">
         <h2>Login para administradores</h2>
@@ -26,6 +37,31 @@ const Ingresar = () => {
       </div>
     </div>
     <Footer />
+=======
+    <FormularioIngreso 
+      login={login}
+      setLogin={setLogin}
+      loginError={loginError}
+      setLoginError={setLoginError}
+    />
+    </>
+    if(loginError===true) {
+    return <>
+    <NavBar/>
+    <p>Credenciales incorrectas</p>
+    <FormularioIngreso 
+      login={login}
+      setLogin={setLogin}
+      loginError={loginError}
+      setLoginError={setLoginError}
+    />
+    </>
+    }}
+  else
+  return <>
+    <NavBar/>
+    <AdminPage/>
+>>>>>>> dev
   </>
 }
 
