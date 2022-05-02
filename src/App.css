@@ -1,33 +1,133 @@
-.carouselContainer {
-    position: absolute;
-    width: 600px;
-    height: 400px;
+*{
+    padding:0;
+    margin:0;
 }
-.imageCarouselContainer {
+#titulo{
+    display: flex;
+    justify-content: center;
     width: 100%;
-    height: 100%;
+    color:#524A4E;
+    font-weight: 700;
 }
-.cuadro{
-    border: 1px solid black;
-    background-color: black;
-    
+.colorTextoClaro{
+    color:#ffffff;
+    font-weight: 600;
 }
-.Navbar {
+.Navbar{
     display: flex;
     justify-content: space-around;
-    
-}
-.cuadro{
-    display: flex;
-    justify-content: space-around;
+    background-color: #524A4E;
+    border: 5px solid black;
+    width: 100%;
 }
 .links{
     display: flex;
     gap: 3rem;
 }
+/* FOOTER*/
 .googleMaps , .cuadroQr{
     display: flex;
     justify-content:center;
     align-items: center;
-    background-color: white;
+    background-color: black;
 } 
+.cuadro{
+    border: 1px solid black;
+    background-color: #524A4E;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.inicio{
+    background-color: black;
+}
+/*------------------------------------------------BIENVENIDA-------------------------------------------------*/
+.contenedorBienvenida{
+    width: 100%;
+    display: flex;
+    gap: 3rem;
+    margin: 0rem 0rem 2rem 0rem;
+    background: linear-gradient(50deg, #524A4E 30%, #FF5C8D 30%);
+}
+.contenedorImagenBienvenida{
+    height: 100%;
+}
+.textoBienvenida{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.contenedorBienvenida img{
+    border-radius: 2rem;
+    margin: 5rem;
+    
+}
+.contenedorBienvenida img:hover{
+    transform: scale(1.2);
+}
+/*---------------------------------------------------CARDS---------------------------------------------------*/
+.componente{
+    display: flex;
+    flex-direction: column;
+    background-color: #FDEFF4;
+    border:solid #000000;
+    border-width: .3rem;
+    width: 70%;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    margin-top: .5rem;
+    box-shadow: 10px 10px 10px rgb(136, 130, 130);
+}
+.contenedor2{
+    display: flex;
+}
+.contenedor--imagen{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor--imagen img{
+    width: 90%;
+    margin: 2rem;
+    border-radius: 2rem;
+}
+.contenedor--textos{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    word-wrap: break-word;
+}
+
+/*-----------------------------------------------PROFESIONALES-----------------------------------------------*/
+.containerProfesionales{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    background: linear-gradient(47deg, #524A4E 55%, #FF5C8D 30%);
+    justify-content: center;
+    margin: .5rem 0rem 2rem 0rem;
+    border: solid 1px black;
+}
+.containerProfesionales img{
+    border-radius: 60%;
+}
+.cardProfesional{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:1.5rem;
+}
+.cardProfesional p{
+    display: flex;
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+

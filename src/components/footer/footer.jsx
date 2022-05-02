@@ -1,12 +1,12 @@
 function Footer (){
     return (
-       <div className="cuadro bg-primary">
+       <div className="cuadro">
            <div className="contenedorLinks">
                <ul>
-                   <container className="links">
+                   <div className="links">
                     <li>FACEBOOK</li>
                    <li>INSTAGRAM</li>
-                   </container>
+                   </div>
                    <li>TELEFONO</li>
                    <li>DIRECCION</li>
                    <li>MAIL CONTACTO</li>
