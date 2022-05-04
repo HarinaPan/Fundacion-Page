@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Fundacion-Page/static/css/main.abedb68f.css",
+    "main.js": "/Fundacion-Page/static/js/main.3e8c79f2.js",
+    "static/js/787.322190d0.chunk.js": "/Fundacion-Page/static/js/787.322190d0.chunk.js",
+    "index.html": "/Fundacion-Page/index.html",
+    "main.abedb68f.css.map": "/Fundacion-Page/static/css/main.abedb68f.css.map",
+    "main.3e8c79f2.js.map": "/Fundacion-Page/static/js/main.3e8c79f2.js.map",
+    "787.322190d0.chunk.js.map": "/Fundacion-Page/static/js/787.322190d0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abedb68f.css",
+    "static/js/main.3e8c79f2.js"
+  ]
+}
